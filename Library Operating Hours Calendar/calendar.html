@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+    Created by: Logan Crockett
+    On: 8/21/20
+    Purpose: To Hold to operating hours for the Etowah Carnegie Library
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link href="./calendarStyle.css" rel="stylesheet">
+        <script src="./calendarDayHighlight.js"></script>
+    </head>
+    <body onload="init();">
+
+        <!--Use a table to hold the information-->
+        <table>
+            <!--Put the Column information in the thead-->
+            <thead>
+                <tr id="libraryHours"><th colspan="3">Library Hours</th></tr>
+                <tr><th>Day</th><th>From</th><th>To</th></tr>
+            </thead>
+            <!--Put the days and hours in the tbody-->
+            <tbody>
+                <tr id="monday"><td>Monday</td><td>9:30 am</td><td>8:00 pm</td></tr>
+                <tr id="tuesday"><td>Tuesday</td><td>9:30 am</td><td>5:30 pm</td></tr>
+                <tr id="wednesday"><td>Wednesday</td><td>9:30 am</td><td>5:30 pm</td></tr>
+                <tr id="thursday"><td>Thursday</td><td>9:30 am</td><td>8:00 pm</td></tr>
+                <tr id="friday"><td>Friday</td><td>9:30 am</td><td>5:30 pm</td></tr>
+                <tr id="saturday"><td>Saturday</td><td>10:00 am</td><td>2:00 pm</td></tr>
+                <tr id="sunday"><td>Sunday</td><td colspan="2">Closed</td></tr>
+            </tbody>
+
+        </table>
+
+    </body>
+</html>

@@ -1,0 +1,15 @@
+/*
+    Created By: Logan Crockett
+    On: 8/21/20
+    Purpose: To provide style to calendar.html
+*/
+
+#libraryHours {
+    font-size: 24px;
+    background-color: lightblue;
+  }
+  
+  table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
